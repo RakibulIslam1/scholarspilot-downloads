@@ -3,6 +3,10 @@
 **[Download the Android APK](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/download/pilot-1.0.0-2/ScholarsPilot-Pilot-Android.apk)**
 
 Version 1.0.0 (2), ARM64 Android 7 or newer, approximately 44 MB.
+You can also scan this code from another screen:
+
+![Scan to download the signed Android APK](install-qr.png)
+
 This is a **pilot acceptance release**, not a completed general student launch.
 Physical-phone SMS/speech/background behavior, actual inbox recovery/verification
 and final privacy/audience review remain in progress.
