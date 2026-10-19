@@ -78,6 +78,11 @@ Install code 7 for the new optional account-number controls.
 
 ## Records and privacy
 
+This SMS-only pilot does not read wallet-app notifications. If an outgoing
+transaction has no SMS, its amount can be missing until a manual record or later
+explicit balance arrives. An amount-free app alert cannot supply the deduction.
+A recorded balance is not a live bKash balance.
+
 Settings → Bank messages asks for SMS access, lists sender identifiers on-device,
 and lets you select a bank/wallet sender. Confirm this month's history/latest
 explicit balance once. Clear new alerts create records on app sync and ask for a
