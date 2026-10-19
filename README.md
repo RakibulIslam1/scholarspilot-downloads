@@ -1,8 +1,8 @@
 # ScholarsPilot Android pilot
 
-**[Download version 8](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/download/pilot-1.0.0-8/ScholarsPilot-Pilot-Android-v8.apk)**
+**[Download version 9](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/download/pilot-1.0.0-9/ScholarsPilot-Pilot-Android-v9.apk)**
 
-Version 1.0.0 (8), ARM64 Android 7+. This is a pilot acceptance release.
+Version 1.0.0 (9), ARM64 Android 7+. This is a pilot acceptance release.
 
 ![Scan to download the signed Android APK](install-qr.png)
 
@@ -23,9 +23,11 @@ is added and no bank password or payment PIN is needed.
 - Bangla and English dictation remembers language and speech-service consent.
   Offline recognition is chosen only for an installed matching language. The
   phone speech service can require internet processing; the app saves no audio.
-- AI rewrites descriptions into editable wording and suggests a category. The
-  existing-record editor now supports tidying and correctly saves reviewed
-  wording without changing the amount. Original voice transcripts are retained.
+- One voice button handles dictation. AI prepares the description and category
+  automatically. Typed text is prepared on Review; check it before Save. No
+  separate AI/tidy switch is needed. Resetting speech consent is available in
+  Settings → Account and privacy, away from recording. Saved-entry editing
+  changes reviewed wording without changing its amount.
 - Settings → bKash app alerts offers separate opt-in notification capture for
   supported official-bKash Cash Out, Send Money and Payment cues. Android
   notification access is required. It cannot read private wallet history.
