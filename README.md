@@ -1,15 +1,17 @@
 # ScholarsPilot Android pilot
 
-**[Download the Android APK](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/download/pilot-1.0.0-2/ScholarsPilot-Pilot-Android.apk)**
+**[Download the Android APK](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/download/pilot-1.0.0-3/ScholarsPilot-Pilot-Android-v3.apk)**
 
-Version 1.0.0 (2), ARM64 Android 7 or newer, approximately 44 MB.
+Version 1.0.0 (3), ARM64 Android 7 or newer, approximately 44 MB.
 You can also scan this code from another screen:
 
 ![Scan to download the signed Android APK](install-qr.png)
 
 This is a **pilot acceptance release**, not a completed general student launch.
-Physical-phone SMS/speech/background behavior, actual inbox recovery/verification
-and final privacy/audience review remain in progress.
+The owner accepted install, launch and Gmail verification on code 2. Code 3 adds
+mandatory verification before workspace access; its phone acceptance is pending.
+Physical-phone SMS/speech/background behavior, password recovery and final
+privacy/audience review remain in progress.
 
 ## Install
 
@@ -20,6 +22,12 @@ and final privacy/audience review remain in progress.
    needed. Free hosting may take about a minute to wake up on first connection.
 4. Create an account with your own email. The first pilot is Bangladesh, age 13+;
    students aged 13–17 need a separate verified guardian account and approval.
+5. Stay on **Verify your email to continue** until you open the email link and
+   return. The app checks automatically; Check now and Resend are also available.
+
+For an upgrade, install over your current app to preserve its records/session.
+Already-verified users enter normally. Unverified accounts cannot access records
+or the Assistant, including through an older installed version.
 
 The app records manual accounts, expenses, budgets, CSV history and reviewed
 financial messages. Optional selected-sender capture receives new SMS, not the
@@ -32,7 +40,7 @@ The source repository is private. This repository distributes the signed binary,
 checksum and release notes. Keep the official signing identity for upgrades.
 
 SHA-256:
-`1b5325aaf50d778dec8e12243dcf3541e01094271a5d40d46d251429c09c723f`
+`3a084e572152a937f92d4d875cb95605fa23376162e77a4b277be8d6da401dde`
 
 Publisher: **Rakibul Islam**. Support: **rakibul.rir06@gmail.com**.
 [Privacy](https://scholarspilot-rir06.onrender.com/privacy) ·
