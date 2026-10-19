@@ -1,15 +1,17 @@
 # ScholarsPilot Android pilot
 
-**[Download the Android APK](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/download/pilot-1.0.0-5/ScholarsPilot-Pilot-Android-v5.apk)**
+**[Download the Android APK](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/download/pilot-1.0.0-6/ScholarsPilot-Pilot-Android-v6.apk)**
 
-Version 1.0.0 (5), ARM64 Android 7+, approximately 44 MB.
+Version 1.0.0 (6), ARM64 Android 7+, approximately 44 MB.
 
 ![Scan to download the signed Android APK](install-qr.png)
 
 This is a **pilot acceptance release**, not a completed general student launch.
-Code 5 was installed over the previous app on a Pixel 6a / Android 16; SMS grants
-were retained, and widget settings/placement were checked. Real bank SMS formats,
-voice/background, recovery, guardian-device and final policy review remain.
+Code 6 was installed over the previous app on Pixel 6a / Android 16; SMS grants
+were retained. Its real-inbox rescan and compact widget placement checks are
+pending while another Android setup screen covers the app. Code 5 widget evidence
+is historical. Real-bank formats, voice/background, recovery, guardian-device
+and final policy acceptance remain before broad release.
 
 ## Install or update
 
@@ -24,7 +26,25 @@ voice/background, recovery, guardian-device and final policy review remain.
    a separate verified guardian account. Follow the optional three-step guide or
    go directly Home.
 
-## New in code 5
+## Current fixes
+
+- Bank messages now has **Rescan this month** to recover earlier SMS after a
+  skipped/empty import, without duplicate records or old-purpose prompts. Read
+  the checked/recorded/duplicate/review/excluded counts afterward.
+- Tick several sender names and save them together. Previously saved sender
+  rules are retained. Common carrier names are hidden by default, with a
+  show-hidden option; wallet names and unknown short codes remain visible.
+- The widget defaults to a compact white **3 × 1** panel with dark text and an
+  inline Edit action. Remove/re-add an older tall widget for the new dimensions.
+  Android must confirm placement; the app now displays added/configured counts.
+
+Code 6 passed 168 local tests, 14 hosted SMS/recovery checks and signed Android
+package verification. It is installed on the owner's Pixel 6a with SMS grants
+retained. Real inbox rescan and new widget placement acceptance are pending while
+another system setup screen covers the app. Earlier code 5 widget checks do not
+prove the new size or current real-SMS import.
+
+## Features in code 6
 
 - **Monthly plan:** Home → Set my monthly plan. Two short steps cover whole-month
   tuition/education, housing, living and other costs, a protected cushion and income
@@ -34,7 +54,7 @@ voice/background, recovery, guardian-device and final policy review remain.
   free-limit failures have an explicitly labelled calculated fallback.
 - **Android widget:** Settings → Home-screen widget. Select balance, today's
   expenses, today's remaining allowance, or any combination; add it to the home
-  screen. Each widget has its own choices and ScholarsPilot colors. It displays
+  screen. Each widget has its own choices and a simple white appearance. It displays
   the last app sync and requests refresh after new alerts/new days/session expiry.
 - **Shared SMS inboxes:** give accounts using the same sender different last-three-
   digit account identifiers. Only account-labelled matches route automatically.
@@ -70,7 +90,7 @@ AI uses free Groq access within provider/app limits. The current app cap is
 first. Description/planning calls also consume it. Recording and calculations
 continue when AI is unavailable. No student payment is required to ask questions.
 
-SHA-256: `97b08ba5345ace6b8f904091ad3137a1e2aaa5e0272a30814585bf995f4b0a94`
+SHA-256: `b84a90a4116da58533db3e0a05810250babffc10e2ca395313cfe8078a076912`
 
 The source repository is private. This repository distributes signed binaries,
 checksums and release notes. Publisher: **Rakibul Islam**.
