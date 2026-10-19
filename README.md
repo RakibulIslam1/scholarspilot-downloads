@@ -8,10 +8,10 @@ Version 1.0.0 (6), ARM64 Android 7+, approximately 44 MB.
 
 This is a **pilot acceptance release**, not a completed general student launch.
 Code 6 was installed over the previous app on Pixel 6a / Android 16; SMS grants
-were retained. Its real-inbox rescan and compact widget placement checks are
-pending while another Android setup screen covers the app. Code 5 widget evidence
-is historical. Real-bank formats, voice/background, recovery, guardian-device
-and final policy acceptance remain before broad release.
+were retained. Real-inbox recovery, stated-balance capture, duplicate protection
+and compact widget placement/editing passed on that phone. Code 5 pictures remain
+historical. More bank formats, voice/background, recovery, guardian-device and
+final policy acceptance remain before broad release.
 
 ## Install or update
 
@@ -38,11 +38,14 @@ and final policy acceptance remain before broad release.
   inline Edit action. Remove/re-add an older tall widget for the new dimensions.
   Android must confirm placement; the app now displays added/configured counts.
 
-Code 6 passed 168 local tests, 14 hosted SMS/recovery checks and signed Android
+Code 6 passed 169 local tests, 15 hosted SMS/recovery checks and signed Android
 package verification. It is installed on the owner's Pixel 6a with SMS grants
-retained. Real inbox rescan and new widget placement acceptance are pending while
-another system setup screen covers the app. Earlier code 5 widget checks do not
-prove the new size or current real-SMS import.
+retained. Its real current-month inbox import and repeat rescan passed, without
+duplicate entries or old-purpose prompts. The explicit latest balance reached
+the account and compact home-screen widget. Selecting one figure and restoring
+all three were verified. An explicit zero fee no longer makes a clear alert
+ambiguous; positive/unclear fees still require review. This parser update runs
+on the hosted service and does not require reinstalling code 6.
 
 ## Features in code 6
 
