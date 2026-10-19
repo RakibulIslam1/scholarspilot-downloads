@@ -1,14 +1,16 @@
 # ScholarsPilot Android pilot
 
-**[Download the Android APK](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/download/pilot-1.0.0-6/ScholarsPilot-Pilot-Android-v6.apk)**
+**[Download the Android APK](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/download/pilot-1.0.0-7/ScholarsPilot-Pilot-Android-v7.apk)**
 
-Version 1.0.0 (6), ARM64 Android 7+, approximately 44 MB.
+Version 1.0.0 (7), ARM64 Android 7+, approximately 44 MB.
 
 ![Scan to download the signed Android APK](install-qr.png)
 
 This is a **pilot acceptance release**, not a completed general student launch.
-Code 6 was installed over the previous app on Pixel 6a / Android 16; SMS grants
-were retained. Real-inbox recovery, stated-balance capture, duplicate protection
+Code 7 was installed over the previous app on Pixel 6a / Android 16; SMS grants
+were retained. Default No, Yes/No account-digit field switching, a real wallet
+rescan without account digits, and compact-widget retention passed. Earlier
+real-inbox recovery, stated-balance capture, duplicate protection
 and compact widget placement/editing passed on that phone. Code 5 pictures remain
 historical. More bank formats, voice/background, recovery, guardian-device and
 final policy acceptance remain before broad release.
@@ -28,6 +30,14 @@ final policy acceptance remain before broad release.
 
 ## Current fixes
 
+- Account numbers are **optional**. Bank messages now offers **No · one wallet or
+  account, no number needed** (the default) and **Yes · match my account’s last 3
+  digits**. A single bKash wallet needs no account digits. Other people's account
+  or phone numbers in received-money alerts are not your wallet identifier.
+- A sole numbered account can switch back to no-number matching without deleting
+  records or changing its balance. Accounts sharing a sender must retain distinct
+  identifiers to keep their balances separate.
+
 - Bank messages now has **Rescan this month** to recover earlier SMS after a
   skipped/empty import, without duplicate records or old-purpose prompts. Read
   the checked/recorded/duplicate/review/excluded counts afterward.
@@ -38,16 +48,15 @@ final policy acceptance remain before broad release.
   inline Edit action. Remove/re-add an older tall widget for the new dimensions.
   Android must confirm placement; the app now displays added/configured counts.
 
-Code 6 passed 169 local tests, 15 hosted SMS/recovery checks and signed Android
-package verification. It is installed on the owner's Pixel 6a with SMS grants
-retained. Its real current-month inbox import and repeat rescan passed, without
-duplicate entries or old-purpose prompts. The explicit latest balance reached
-the account and compact home-screen widget. Selecting one figure and restoring
-all three were verified. An explicit zero fee no longer makes a clear alert
-ambiguous; positive/unclear fees still require review. This parser update runs
-on the hosted service and does not require reinstalling code 6.
+Code 7 passed 171 local tests, 17 hosted SMS/recovery checks and signed Android
+package verification. On Pixel 6a / Android 16, the No/Yes controls and a real
+wallet rescan without account digits passed. The rescan created no duplicates;
+the prior recorded balance and compact widget were retained. Version 6's earlier
+current-month recovery and one/all widget selection checks remain historical
+evidence. Explicit zero fees are supported; positive/unclear fees need review.
+Install code 7 for the new optional account-number controls.
 
-## Features in code 6
+## Included features
 
 - **Monthly plan:** Home → Set my monthly plan. Two short steps cover whole-month
   tuition/education, housing, living and other costs, a protected cushion and income
