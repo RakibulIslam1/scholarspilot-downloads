@@ -102,7 +102,7 @@ AI uses free Groq access within provider/app limits. The current app cap is
 first. Description/planning calls also consume it. Recording and calculations
 continue when AI is unavailable. No student payment is required to ask questions.
 
-SHA-256: `b84a90a4116da58533db3e0a05810250babffc10e2ca395313cfe8078a076912`
+SHA-256: `83a2284fe1634b3ac51a8783856ba807e9374e45207dc08925f1b2e4fb39117c`
 
 The source repository is private. This repository distributes signed binaries,
 checksums and release notes. Publisher: **Rakibul Islam**.
