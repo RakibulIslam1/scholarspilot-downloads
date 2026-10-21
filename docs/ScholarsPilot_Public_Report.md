@@ -2,7 +2,7 @@
 
 ## A student money companion, from record to daily plan
 
-**Product and engineering case study** · Rakibul Islam · 21 October 2026  
+**Product and engineering case study** · Rakibul Islam · 21 October 2026<br>
 **Android pilot:** version 1.0.0, build 9 · **Verification reference:** 20 October 2026
 
 ![ScholarsPilot product overview](../assets/portfolio-cover.png)
@@ -104,5 +104,5 @@ The next priorities are broader consenting-device and message-format validation,
 
 The current contribution is a practical connection between financial evidence, understandable purposes and a daily student plan—with explicit boundaries around what the app can infer and what remains the student's decision.
 
-**Created by Rakibul Islam.** Support: rakibul.rir06@gmail.com  
+**Created by Rakibul Islam.** Support: rakibul.rir06@gmail.com<br>
 [Download and release details](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/tag/pilot-1.0.0-9)

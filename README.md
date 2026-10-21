@@ -95,7 +95,7 @@ The controlled tuition scenarios belong to a separate practice prototype with fi
 
 ---
 
-**Rakibul Islam** · [GitHub](https://github.com/RakibulIslam1) · [Support](mailto:rakibul.rir06@gmail.com)  
+**Rakibul Islam** · [GitHub](https://github.com/RakibulIslam1) · [Support](mailto:rakibul.rir06@gmail.com)<br>
 [Privacy policy](https://scholarspilot-rir06.onrender.com/privacy) · [Account deletion](https://scholarspilot-rir06.onrender.com/delete-account)
 
 © 2026 Rakibul Islam. [Public content and app rights](NOTICE.md).

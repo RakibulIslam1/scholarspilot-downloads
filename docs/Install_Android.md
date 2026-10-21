@@ -1,6 +1,6 @@
 # Install ScholarsPilot
 
-**Release:** 1.0.0 · build 9 · signed Android pilot  
+**Release:** 1.0.0 · build 9 · signed Android pilot<br>
 **Compatibility:** Android 7.0+ on ARM64 phones. Other architectures are not included in this APK.
 
 1. [Download the APK from the official project release](https://github.com/RakibulIslam1/scholarspilot-downloads/releases/download/pilot-1.0.0-9/ScholarsPilot-Pilot-Android-v9.apk).
